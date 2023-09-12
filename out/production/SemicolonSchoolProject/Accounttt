@@ -1,0 +1,8 @@
+public class Accounttt {
+
+    private int balance;
+
+    public void int deposit;
+
+    public void int withdraw;   public int checkBalance;
+}
