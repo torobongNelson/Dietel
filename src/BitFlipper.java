@@ -14,4 +14,5 @@ public class BitFlipper {
         System.out.println(0);
 
     }
+
 }

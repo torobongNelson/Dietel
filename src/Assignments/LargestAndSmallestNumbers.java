@@ -9,7 +9,7 @@ public class LargestAndSmallestNumbers {
        int min = 0;
         Scanner scanner = new Scanner(System.in);
     while (true) {
-        System.out.println("Enter a number");
+        System.out.println("Enter a number :");
         int input = scanner.nextInt();
 
 
