@@ -19,7 +19,7 @@ public class BackToSenderDeliveryServiceTest {
 //    given that BackToSenderDeliveryService exists
         BackToSenderDeliveryService deliveryService = new BackToSenderDeliveryService();
 //    when i call a method,calculate riders payment method
-        double ridersWage = deliveryService.CalculateRidersPayment(40);
+        double ridersWage = deliveryService.calculateRidersPayment(40);
         assertEquals(11400,ridersWage );
 
     }
@@ -29,7 +29,7 @@ public class BackToSenderDeliveryServiceTest {
 
 
         BackToSenderDeliveryService deliveryService = new BackToSenderDeliveryService();
-        double riderswage= deliveryService.CalculateRidersPayment(55);
+        double riderswage= deliveryService.calculateRidersPayment(55);
         assertEquals(16000,riderswage );
 
     }
@@ -37,14 +37,14 @@ public class BackToSenderDeliveryServiceTest {
     public void TestThatICanCalculateRidersPaymentBetweenSixtyToSixtyNine(){
 
         BackToSenderDeliveryService deliveryService = new BackToSenderDeliveryService();
-        double riderswage = deliveryService.CalculateRidersPayment(69);
+        double riderswage = deliveryService.calculateRidersPayment(69);
         assertEquals(22250,riderswage);
 
     }@Test
     public void TestThatICanCalculateRidersPaymentAboveSeventy(){
 
         BackToSenderDeliveryService deliveryService = new BackToSenderDeliveryService();
-        double riderswage = deliveryService.CalculateRidersPayment(70);
+        double riderswage = deliveryService.calculateRidersPayment(70);
         assertEquals(40000,riderswage);
 
     }

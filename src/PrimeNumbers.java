@@ -7,7 +7,7 @@ public class PrimeNumbers {
         System.out.println("Enter a number:");
         int number= scanner.nextInt();
 
-        for (int count = 1; count <= number; count++) {
+        for (int count = 1; count <= number; count++)
             if (count % number==0 & count==1|| count==number){
                 System.out.println("It is a prime number");
 
@@ -21,4 +21,4 @@ public class PrimeNumbers {
 
 
 
-}
+

@@ -1,7 +1,7 @@
 package Assignments;
 
 public class BackToSenderDeliveryService {
-    public double CalculateRidersPayment(int collectionRate) {
+    public double calculateRidersPayment(int collectionRate) {
         double ridersWage = 0;
         
         if(collectionRate< 50){
