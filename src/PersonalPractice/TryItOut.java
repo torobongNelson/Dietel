@@ -2,6 +2,21 @@ package PersonalPractice;
 
 public class TryItOut {
     public static void main(String[] args) {
-        System.out.println("i choosed to be here and i know i will do absolutely well, \\its going to be be with it you know!");
+       StaticMethodsWithBj praise = new StaticMethodsWithBj();
+       StaticMethodsWithBj joshua = new StaticMethodsWithBj();
+
+       praise.myAge();
+       joshua.myAge();
+
+       praise.setAge();
+       praise.myAge();
+       joshua.myAge();
+
+
+       // StaticMethodsWithBj.eat();
+
+
+
     }
+
 }
