@@ -1,4 +1,4 @@
-package Assignments;
+package PersonalPractice;
 
 import java.util.Scanner;
 

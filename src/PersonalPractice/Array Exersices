@@ -1,0 +1,23 @@
+Sure, here are 10 simple array-related questions that involve using loops in Java:
+
+1. **Array Sum:** Write a Java program to calculate the sum of all elements in an integer array.
+
+2. **Array Average:** Create a Java program that calculates the average of values in a double array.
+
+3. **Maximum Value:** Write a Java function to find the maximum value in an array of integers.
+
+4. **Minimum Value:** Create a Java program to find the minimum value in an array of doubles.
+
+5. **Array Reversal:** Implement a Java function that reverses the elements in an integer array using a loop.
+
+6. **Array Search:** Write a Java program to search for a specific element in an array of strings and return its index.
+
+7. **Array Copy:** Create a Java function that copies the elements of one integer array into another.
+
+8. **Array Sorting:** Implement a Java program to sort an array of integers in ascending order using a loop.
+
+9. **Array Filtering:** Write a Java function that removes all occurrences of a specified value from an array of integers.
+
+10. **Array Rotation:** Implement a Java program that rotates the elements of an integer array to the right by a given number of positions.
+
+Feel free to use these questions to practice your array and loop manipulation skills in Java.
