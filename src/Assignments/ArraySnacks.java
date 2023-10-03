@@ -13,11 +13,11 @@ public class ArraySnacks {
  }
 
          public static void reverseArray(int[] numbers){
-   for(int index = numbers.length-1; index >= 0; index --){
-       System.out.print(numbers[index] + " ");
+            for(int index = numbers.length-1; index >= 0; index --){
+                System.out.print(numbers[index] + " ");
 
-   }
- }
+            }
+        }
 
         public static boolean doesNumberExistInArray(int[] numbers, int number){
             for(int i : numbers){
@@ -52,6 +52,42 @@ public class ArraySnacks {
             }
             return sum;
         }
+
+        public static boolean IsPalindrome(String str){
+            for(int i = 0; i < str.length() / 2; i++){
+                if(str.charAt(i) != str.charAt( str.length() - i - 1)){
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public static int computeTheSumWithWhileLoop(int[]  numbers ){
+            int sum = 0;
+            int i = 0;
+
+            while(i < numbers.length){
+                sum += numbers[i];
+                i ++;
+            }
+            return sum;
+
+        }
+
+        public static int computeTheSumWithDoWhileLoop(int[] numbers){
+            int sum = 0;
+            int i = 0;
+
+            do{
+                sum += numbers[i];
+                i++;
+
+
+            }while(i < numbers.length);
+            return sum;
+
+        }
+
 
 
 
