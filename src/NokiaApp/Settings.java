@@ -28,8 +28,7 @@ public class Settings {
                 break;
 
             case 4:
-                SettingsRestoreFactorySettings restoreSettings = new SettingsRestoreFactorySettings();
-                restoreSettings.display();
+                System.out.println("Restore factory settings");
                 break;
 
             default:

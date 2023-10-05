@@ -8,10 +8,10 @@ public class MessageSettingsCommonMenu {
     public void display(){
         int choice;
 
-            System.out.println("Common:"
-                    + "1 -> Delivery reports\n"
-                    + "2 -> Reply via same centre\n"
-                    + "3 -> Character support\n");
+        System.out.println("Common:");
+        System.out.println("1 -> Delivery reports");
+        System.out.println("2 -> Reply via same centre");
+        System.out.println("3 -> Character support");
 
             choice = scanner.nextInt();
 
