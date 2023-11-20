@@ -1,18 +1,26 @@
-//package PersonalPractice;
-//
-//import PersonalPractice.Calculator;
-//
-//public class Main {
-//    public static void main(String[] args) {
-//       int result = Calculator.add(20,29);
-//       int subtract = Calculator.substract(20,10);
-//       int divide = Calculator.divide(20,20);
-//       int avg1 = Calculator.average(40,30);
-//       int avg2 = Calculator.average(40,30,50);
-//        System.out.println(avg2);
-//    }
-//
-//
-//
-//
-//}
+package PersonalPractice;
+
+import Assignments.CreditCardValidator;
+import PersonalPractice.Calculator;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Hello, Kindly Enter Card details to verify: ");
+
+        String verify = scanner.nextLine();
+
+        CreditCardValidator validator = new CreditCardValidator();
+         validator.processedCardDetail(verify);
+//        System.out.println(validate);
+    }
+
+
+
+
+
+
+}

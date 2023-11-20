@@ -23,14 +23,14 @@ public class LargestAndSmallestNumbers {
 
 
 
-        System.out.println("Do you want to continue ?    \n " +
+        System.out.println("Do you want to continue ? \n " +
                 "press 1 to continue\n" +
                 "press 0 to exit!");
         int input2 = scanner.nextInt();
 
         if (input2 ==0){
             System.out.println("maximum is "+max+" and  minimum is  "+min);
-            System.out.println("farewell user");
+            System.out.println("GOODBYE");
             break;
         }
 

@@ -24,7 +24,7 @@ public class ClassTaskAverageOfEvenScores {
 
         }
         average = sumOfEvenNumbers/counter;
-        System.out.println("The average of even numbers is " + average);
+        System.out.println("The average of even numbers is " + average );
 
     }
 }

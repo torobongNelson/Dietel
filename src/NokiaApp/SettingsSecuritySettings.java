@@ -19,8 +19,22 @@ public class SettingsSecuritySettings {
 
         switch (userInput){
             case 1:
-
-
+                System.out.println("PIN code request");
+            case 2:
+                System.out.println("Call barring service");
+                break;
+            case 3:
+                System.out.println("Fixed dialling ");
+                break;
+            case 4:
+                System.out.println("Closed user group");
+                break;
+            case 5:
+                System.out.println(" Phone security");
+                break;
+            case 6:
+             System.out.println(" Change access code");
+             break;
         }
 
     }

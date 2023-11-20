@@ -1,12 +1,12 @@
 package PersonalPractice;
 
-public class HumanTest {
+public class  HumanTest {
     public static void main(String[] args) {
 
 
         Human human = new Human();
 
-        human.setName("stanley");
+        human.setFullName("stanley", "Okereke");
 
         human.setHeight(6.5);
 
@@ -14,12 +14,11 @@ public class HumanTest {
 
         int humanAge = human.getAge();
         double humanHeight = human.getHeight();
-        String humanName = human.getName();
+        String humanName = human.getFullName();
 
 
 
         System.out.printf( "Name: "+ humanName   +  "\n"   +  "Height:"+ humanHeight  + " \n " +   humanAge + " years" );
-        System.out.printf(" %n  %d %n  %.2f  %s ", human.getAge() , human.getHeight() , human.getName());
     }
 
 

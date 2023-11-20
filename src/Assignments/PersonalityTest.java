@@ -7,7 +7,7 @@ public class PersonalityTest {
 
     public static String[] QUESTIONS = {
 
-            "how would youdescribe yourself? Do you prefer to be around people or do you need time alone to recharge?",
+            "how would you describe yourself? Do you prefer to be around people or do you need time alone to recharge?",
             "How do you approach life? Do you take things at face value or do you look for deeper meaning?",
             "How do you make decisions? Do you rely on logic and reason or do you consider your emotions and the needs of others?",
             "How do you like to live your life? Do you prefer to have a plan or do you go with the flow?",
@@ -103,4 +103,4 @@ public class PersonalityTest {
 }
 
 
-}
+

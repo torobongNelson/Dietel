@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FunctionsMutiplicationTest {
     @Test
     public void TestThatNumbersCanBeMultiplied() {
-        int result =  FunctionsInMultiplication.multiplyNumbers(2, 3);
-        assertEquals(6, result);
+        int result =  FunctionsInMultiplication.multiplyNumbers(4, 5);
+        assertEquals(20, result);
 
 
     }
