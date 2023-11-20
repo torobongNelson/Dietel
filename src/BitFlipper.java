@@ -8,7 +8,7 @@ public class BitFlipper {
         int userInput = KeyboardInput.nextInt();
 
         if(userInput == 0)
-        System.out.println(1);
+         System.out.println(1);
 
         if(userInput == 1);
         System.out.println(0);
