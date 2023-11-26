@@ -8,7 +8,6 @@ public class Entry {
     private String entryBody;
     private LocalDateTime dateCreated;
 
-
     public void setTitle(String title){
         this.title = title;
     }

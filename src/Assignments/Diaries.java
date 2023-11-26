@@ -29,7 +29,6 @@ public class Diaries {
         Diary diary = findByUsername(userName);
         diaries.remove(diary);
 
-
 //        for (int i = 0; i < diaries.size(); i++){
 //            if(diaries.contains(userName) && diaries.contains(password) ){
 //                int usernameIndex = diaries.indexOf(userName);

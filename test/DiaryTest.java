@@ -48,6 +48,7 @@ public class DiaryTest {
         myDiary.createEntry("My Birth story", "Dear Diary,...");
         assertEquals(3,myDiary.getTotalNumberOfEntry());
     }
+
     @Test
     public  void testThatEntryCanBeDeleted(){
         myDiary.unlockDiary("2023");

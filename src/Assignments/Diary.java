@@ -60,7 +60,6 @@ public class Diary{
             if(entry.getId() == id){
                 return entry;
             }
-
         }
         return null;
     }
