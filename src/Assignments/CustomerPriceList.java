@@ -2,7 +2,7 @@ package Assignments;
 
 import java.util.Scanner;
 
-public class CustomerPriceList {
+public class  CustomerPriceList {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

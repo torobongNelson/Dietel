@@ -7,7 +7,7 @@ public class NumbersInArrayTest {
     public void testnumbersreceived(){
         NumbersInArray inArray = new NumbersInArray();
         //given
-//        int[] result = (10,20,15,25,80)
+        int[] result = {42,18,41,22,15,12};
 
 
     }
