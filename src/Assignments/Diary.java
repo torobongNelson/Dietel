@@ -8,10 +8,10 @@ import static java.lang.System.exit;
 public class Diary{
     private String  username;
     private String password;
-    private int totalNumberOfEntry;
+    private int totalNumberOfEntries;
 
     private boolean isLocked;
-    private ArrayList<Entry> entries;
+    private List<Entry> entries;
 
 
 
@@ -21,13 +21,13 @@ public class Diary{
         this.password = password;
     }
 
-    public void unlockDiary(String password){
+    public boolean unlockDiary(String password){
         //todo check that password is correct
         if(this.password != password){
             System.out.println("Password is incorrect");
             exit(0);
         }
-        this.isLocked = false;
+        return false;
     }
 
     public void lockDiary() {
@@ -37,30 +37,39 @@ public class Diary{
     public boolean isLocked() {
         return this.isLocked;//returns the state
     }
+
+
     public void createEntry(String title,String body){
-        totalNumberOfEntry ++;
         Entry entry = new Entry(1,title,body);
         entries.add(entry);
+        totalNumberOfEntries ++;
+    }
 
-
-}
-
-    public int getTotalNumberOfEntry() {
+    public int getTotalNumberOfEntries() {
         return entries.size();
     }
+
 
     public void deleteEntry(int id) {
         Entry entry = findEntryById(id);
         entries.remove(entry);
-        totalNumberOfEntry --;
+        totalNumberOfEntries --;
     }
 
-    private Entry findEntryById(int id) {
+    public Entry findEntryById(int id) {
         for (Entry entry : entries) {
             if(entry.getId() == id){
                 return entry;
             }
         }
         return null;
+    }
+
+    public void updateEntry(int id, String title, String body){
+        Entry entry = findEntryById(id);
+        entry.setTitle(title);
+        entry.setEntryBody(body);
+
+        entries.set(id,entry);
     }
 }

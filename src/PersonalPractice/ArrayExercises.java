@@ -9,6 +9,7 @@ public class ArrayExercises {
         for (int i = 0; i < myNumbers.length; i++ ){
             sum += myNumbers[i];
         }
+
         return sum;
     }
 

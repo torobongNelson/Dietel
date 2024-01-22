@@ -1,9 +1,9 @@
 //package ClassTask;
 //
-//import java.security.SecureRandom;
+//import java.security.RandomIntegers;
 //
 //public class Secure {
 //    public static void main(String[] args) {
-//        SecureRandom random = new SecureRandom
+//        RandomIntegers random = new RandomIntegers
 //    }
 //}

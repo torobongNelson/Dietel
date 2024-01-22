@@ -5,7 +5,7 @@ public class BackToSenderDeliveryService {
         double ridersWage = 0;
         
         if(collectionRate< 50){
-            ridersWage = collectionRate*160+ 5000;
+            ridersWage = collectionRate * 160+ 5000;
         } else if (collectionRate >=50 && collectionRate <= 59) {
             ridersWage =  collectionRate*200+ 5000;
 

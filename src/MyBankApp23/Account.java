@@ -25,7 +25,6 @@ public class Account {
 
     public Account(String accountName){
         this.accountName = accountName;
-
     }
 
     public void deposit(BigDecimal amount){

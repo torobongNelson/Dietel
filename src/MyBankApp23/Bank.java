@@ -9,14 +9,19 @@ public class Bank {
 
     private String name;
 
-    public Bank(){
+    public Bank(String name){
         this.accounts = new ArrayList<>();
+        this.name = name;
     }
 
-    public Account createAccount(){
-        Account newAccount = new Account(this.name);
+    public Account registerCustomer(String accountName, String accountNumber, String pin){
+        Account newAccount = new Account(accountName, accountNumber, pin);
         accounts.add(newAccount);
         return newAccount;
+    }
+
+    public List<Account> getRegisteredCustomers(){
+        return this.accounts;
     }
 
 
